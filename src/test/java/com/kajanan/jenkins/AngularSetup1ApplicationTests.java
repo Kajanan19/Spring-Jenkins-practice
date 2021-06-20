@@ -15,6 +15,7 @@ class AngularSetup1ApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case executing...");
+		logger.info("Test second case executing");
 		assertEquals(true, true);
 	}
 
