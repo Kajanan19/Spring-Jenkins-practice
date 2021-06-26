@@ -13,7 +13,7 @@ class AngularSetup1ApplicationTests {
 	public static Logger logger= LoggerFactory.getLogger(AngularSetup1ApplicationTests.class);
 
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		logger.info("Test case executing...");
 		logger.info("Test second case executing");
 		assertEquals(true, true);
